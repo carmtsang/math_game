@@ -12,11 +12,10 @@ game class
 player class
 
 - there will be two different players, p1 and p2 for every game.
-- stores the lives left.
   method:
 - lives. counting how many lives are left for each player
   for initialization:
-- number of lives = 3
+- number of lives = 3, if player loses game, lives -1
 
 math question class
 
