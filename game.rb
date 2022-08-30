@@ -63,6 +63,6 @@ end
 
 def game_over
   winner = @players.find { |e| e.lives > 0 }
-  puts "#{winner.name} won!!!!"
+  puts "#{winner.name} wins with a score of #{winner.lives}/3 "
   puts "---Game Over---"
 end
